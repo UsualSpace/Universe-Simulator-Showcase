@@ -1,4 +1,5 @@
 # Universe-Simulator-Showcase
+![An atmospheric planet encountered in the simulator](images/image-102.png)
 
 ## Table Of Contents
 - [Important note](#important-note)
