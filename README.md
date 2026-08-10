@@ -1,2 +1,3 @@
 # Universe-Simulator-Showcase
-A public repo for explaining what this project of mine is, how some aspects of it are architected, and showcasing some of the results.
+## Disclaimer:
+The engine source is private, but selected implementation details and visual demonstrations will be shown below.
