@@ -1,5 +1,6 @@
 # Universe-Simulator-Showcase
 ![An atmospheric planet encountered in the simulator](images/image-102.png)
+
 An atmospheric planet encountered in the simulator.
 
 ## Table Of Contents
