@@ -5,7 +5,7 @@ An atmospheric planet encountered in the simulator.
 
 # Table Of Contents
 - [Introduction](#introduction)
-    - [Important note](#important-note)
+    - [Important notes](#important-notes)
     - [What is this?](#what-is-this?)
     - [Why am I making this?](#why-am-i-making-this?)
 - [How it works](#how-it-works)
@@ -28,8 +28,8 @@ An atmospheric planet encountered in the simulator.
   
 
 # Introduction
-## Important note:
-The full engine source is private, but selected design/implementation details and visual demonstrations will be shown below.
+## Important notes:
+The full engine source is private, but selected design/implementation details and visual demonstrations will be shown below. This project is a work in progress and some of the topics listed in the table of contents may not be complete
 
 ## What is this?
 
