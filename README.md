@@ -4,7 +4,7 @@
 An atmospheric planet encountered in the simulator.
 
 # Table Of Contents
-- [Introduction](#introduction
+- [Introduction](#introduction)
     - [Important note](#important-note)
     - [What is this?](#what-is-this?)
     - [Why am I making this?](#why-am-i-making-this?)
