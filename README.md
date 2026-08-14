@@ -5,6 +5,7 @@ An atmospheric planet encountered in the simulator.
 
 # Table Of Contents
 - [Introduction](#introduction)
+    - [Links](#links)
     - [Important notes](#important-notes)
     - [What is this?](#what-is-this?)
     - [Why am I making this?](#why-am-i-making-this?)
@@ -28,6 +29,11 @@ An atmospheric planet encountered in the simulator.
   
 
 # Introduction
+## Links
+Here are some links to other sites where you can see the development of my project.
+* https://abdualyajouri.artstation.com/
+* https://www.youtube.com/@usualspace3247
+  
 ## Important notes:
 * The full engine source is private, but selected design/implementation details and visual demonstrations will be shown below.
 * This project is a work in progress and some of the topics listed in the table of contents may not be complete
