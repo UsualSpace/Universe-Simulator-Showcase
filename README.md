@@ -30,7 +30,7 @@ An atmospheric planet encountered in the simulator.
 
 # Introduction
 ## Links
-Here are some links to other sites where you can see the development of my project.
+Here are some links to other sites where you can see the development of my project as I continue to work on this README.
 * https://abdualyajouri.artstation.com/
 * https://www.youtube.com/@usualspace3247
   
