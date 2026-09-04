@@ -59,7 +59,9 @@ I have had a keen interest in the topic of space since I was in elementary schoo
 ## Stars
 
 ## Planets
-![A planet from an earlier version of the simulator](images/image-planet1.png)
+![A weird planet from an earlier version of the simulator](images/image-planet1.png)
+A weird planet from an earlier version of the simulator.
+
 Planets are a key phenomenon to consider when trying to simulate a universe. In my case, I want to provide the player with the experience of flying towards a planet (or moon) from deep space, entering its atmosphere (if it has one), landing on its surface, and exploring a very detailed surface hosting many of the common features you would expect an alien world to have. There are many problems that need to be solved in order to do this efficiently on a computer, and there are also many approaches one can take to solve said problems, which I will discuss over the next few sections.
 
 NOTE: As of now, the only planet/moon type you can explore in the simulator are rocky planets with oceans. Though I have experimented with rendering full scale volumetric gas giants, I have not yet devised an optimized approach to handling them.
