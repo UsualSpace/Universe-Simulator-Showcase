@@ -71,7 +71,7 @@ When it comes to terrain generation in general, you need some way of defining th
 
 When it comes to procedural generation, many of the issues with the first method can be overcome:
 * All data is calculated directly on the computer, ideally in the same program, so this can eliminate the need to use any external data sources.
-* Assuming the generation is completely deterministic, You do not need to permanently store any data at all, as the procedural generation algorithm is able to recalculate the exact same data on demand.
+* Assuming the generation is completely deterministic, you do not need to permanently store any data at all, as the procedural generation algorithm is able to recalculate the exact same data on demand.
 * 
 
 So, for these reasons, I opted to use procedural generation to create my planetary terrain on the fly, without the need to store anything permanently. This entails using a variety of algorithms that are capable of efficiently producing smooth and natural patterns that closely resemble the terrain formations we are familiar with and more. There are some downsides to procedural generation however, in that unless you simulate
