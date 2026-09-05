@@ -87,7 +87,7 @@ The main drawback is that procedural terrain is only as realistic as the algorit
 Depicted above is planet from an earlier version of the simulator, I use essentially one algorithm to define elevation across the whole planet, resulting in detailed yet quite repetitive terrain.
 
 One way to alleviate the issue of repetitiveness is by layering multiple different algorithms that look quite different from one another, resulting in varied land formations across the globe.
-![A planet from an earlier version of the simulator](images/image-planet2.png)
+![A planet from an earlier version of the simulator](images/planet2.png)
 
 TO BE CONTINUED
 
