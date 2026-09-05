@@ -83,8 +83,8 @@ For these reasons, I opted to generate planetary terrain procedurally and on dem
 
 The main drawback is that procedural terrain is only as realistic as the algorithms used to generate it. Without sufficient constraints or geological modeling, the resulting terrain can appear artificial or repetitive (as shown below) rather than resembling naturally formed landscapes, so a significant amount of thought has to go into the design of these algorithms. It is an issue I am still facing in the simulator, and is one of my main focuses.
 
+Depicted below is planet from an earlier version of the simulator, I used essentially one algorithm to define displacement across the whole planet, resulting in detailed yet quite repetitive terrain.
 ![A planet from an earlier version of the simulator](images/image-planet1.png)
-Depicted above is planet from an earlier version of the simulator, I use essentially one algorithm to define elevation across the whole planet, resulting in detailed yet quite repetitive terrain.
 
 One way to alleviate the issue of repetitiveness is by layering multiple different algorithms that look quite different from one another, resulting in varied land formations across the globe.
 ![A planet from an earlier version of the simulator](images/planet2.png)
