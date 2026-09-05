@@ -59,29 +59,37 @@ I have had a keen interest in the topic of space since I was in elementary schoo
 ## Stars
 
 ## Planets
-![A weird planet from an earlier version of the simulator](images/image-planet1.png)
-A weird planet from an earlier version of the simulator.
+
 
 Planets are a key phenomenon to consider when trying to simulate a universe. In my case, I want to provide the player with the experience of flying towards a planet (or moon) from deep space, entering its atmosphere (if it has one), landing on its surface, and exploring a very detailed surface hosting many of the common features you would expect an alien world to have. There are many problems that need to be solved in order to do this efficiently on a computer, and there are also many approaches one can take to solve them, which I will discuss over the next few sections.
 
 NOTE: As of now, the only planet/moon type you can explore in the simulator are rocky planets with oceans. Though I have experimented with rendering full scale volumetric gas giants, I have not yet devised an optimized approach to handling them.
 
 ### Planetary terrain generation
-Terrain generation requires a way of defining elevation or displacement across a region of space. There are two primary approaches: using real-world elevation data or generating terrain procedurally, each with its own tradeoffs.
+One of the things that terrain generation requires is a way of defining elevation or displacement across a region of space. There are two primary approaches that I am aware of: using real-world elevation data or generating terrain procedurally, each with its own tradeoffs.
 
-Real-world elevation data has the advantage of producing highly realistic terrain, but presents several issues for this project:
-* Elevation data must be sourced externally and may require additional processing depending on its format and resolution.
+Real-world elevation data has the advantage of producing highly realistic terrain, but presents several issues for this project, including:
+* Elevation data must be sourced externally and may require additional processing before use depending on its format and resolution.
 * Storing elevation samples becomes impractical when supporting an effectively infinite number of planets.
-* The available data limits terrain variety, particularly when most samples would be derived from Earth and the relatively limited elevation data available for other solar system bodies.
+* The available data limits terrain variety, particularly when most samples would be derived from Earth and the pretty limited elevation data available for other solar system bodies.
 
-Procedural generation on the other hand avoids many of these limitations:
+Procedural generation on the other hand avoids most of these limitations:
 
 * Terrain can be generated directly within the simulator without relying on external datasets.
-* If generation is deterministic, terrain data does not need to be stored permanently, as the same terrain can be reproduced on demand.
+* If generation is deterministic, terrain data does not need to be stored permanently, as the same terrain can be reproduced on demand given a starting seed.
 * Terrain can be generated with virtually unlimited variation, allowing planets to have distinct geological characteristics.
 
-TO BE CONTINUED
+For these reasons, I opted to generate planetary terrain procedurally and on demand rather than storing elevation data. This requires a combination of algorithms capable of efficiently producing smooth, natural-looking patterns that resemble familiar geological formations while also allowing for more unusual terrain.
 
+The main drawback is that procedural terrain is only as realistic as the algorithms used to generate it. Without sufficient constraints or geological modeling, the resulting terrain can appear artificial or repetitive (as shown below) rather than resembling naturally formed landscapes, so a significant amount of thought has to go into the design of these algorithms. It is an issue I am still facing in the simulator, and is one of my main focuses.
+
+![A planet from an earlier version of the simulator](images/image-planet1.png)
+Depicted above is planet from an earlier version of the simulator, I use essentially one algorithm to define elevation across the whole planet, resulting in detailed yet quite repetitive terrain.
+
+One way to alleviate the issue of repetitiveness is by layering multiple different algorithms that look quite different from one another, resulting in varied land formations across the globe.
+![A planet from an earlier version of the simulator](images/image-planet2.png)
+
+TO BE CONTINUED
 
 ### Planetary terrain rendering
 ### Planetary ocean generation
