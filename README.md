@@ -87,7 +87,7 @@ Depicted below is planet from an earlier version of the simulator, I used essent
 ![A planet from an earlier version of the simulator](images/image-planet1.png)
 
 One way to alleviate the issue of repetitiveness is by layering multiple different algorithms that look quite different from one another, resulting in varied land formations across the globe.
-![A planet from an earlier version of the simulator](images/planet2.png)
+![Another planet from an earlier version of the simulator](images/planet2.png)
 
 TO BE CONTINUED
 
